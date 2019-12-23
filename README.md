@@ -33,8 +33,6 @@ Being always updated to the latest OSHW projects in the community, we found that
 
 <div align="center"><img src="img/image004.jpg" width="80%"></div>
 <div align="center"><i>CARVER X5 Machine</i></div>
-
-
 So we thought we could create the first OSHW, Head/Head, double swivel head form, 5 Axis CNC Machine. We tried our best to make it both robust and easily replicable machine. Constructed mainly from Heavy Aluminum Extrusion profiles, and thick aluminum milled parts HGR25 Linear guides, using NEMA23 Stepper motors, and Rack and pinion for transmission, Carver X5 is capable of milling materials like wood, plastics and soft metals like Aluminum and brass.
 
 # CARVER X5 Machine
@@ -67,11 +65,9 @@ But in 5 axis CNC machines we talk about 3P2R robots, because they are composed 
 
 
 
-<img src="img/Carver X5.jpg" alt="img" style="zoom:100%;" />
+<img src="img/Carver X5.jpg" alt="img" style="zoom:50%;" />
 
 <div align="center"><i>CARVER X5 Design</i></div>
-
-
 
 Our Joints are named (X, Y, Z, C & B)
 
@@ -86,11 +82,9 @@ As it's important that the structure be stiff and robust, we wanted to work with
 
 
 
-<img src="img/Frame.jpg" alt="img" style="zoom:Infinity%;" />
+<img src="img/Frame.jpg" alt="img" style="zoom:50%;" />
 
 <div align="center"><i>Machine Frame</i></div>
-
-
 
 The machine frame contains the rails and transmission rack of the Y-axis that will carry the other entire axis, this is why we worked with the 45x90 aluminum profiles in the top stage.
 The frame carries the mechanical stops; they include a screw to adjust the limit position.
@@ -99,11 +93,9 @@ The frame carries the mechanical stops; they include a screw to adjust the limit
 
 The Y2X Bridge is the second link in our 5-axis CNC machine, it links the Y and X joints.
 
-<img src="img/Bridge.jpg" alt="img" style="zoom:Infinity%;" />
+<img src="img/Bridge.jpg" alt="img" style="zoom:50%;" />
 
 <div align="center"><i>Y2X Bridge</i></div>
-
-
 
 Constructed from two perpendicular 45x90 aluminum profile and two 15mm aluminum plate flanks on which will be installed the Y-axis sliding blocks.
 
@@ -112,11 +104,9 @@ Constructed from two perpendicular 45x90 aluminum profile and two 15mm aluminum 
 X2Z, as its name indicates, do the function of the joint between the two prismatic axis, X and Z.
 X2Z is an assembly that plays a big role in our 5 Axis CNC Machine, because it assures both, the linear guiding of X axis, Z axis and their transmission organs.
 
-<img src="img/X2Z.jpg" alt="img" style="zoom:Infinity%;" />
+<img src="img/X2Z.jpg" alt="img" style="zoom:50%;" />
 
 <div align="center"><i>X2Z</i></div>
-
-
 
 Built totally from thick aluminum plates, X2Z contains the sliding blocks of X-axis installed on its back, and those of the Z-axis, installed between the two X2Z flank plates.
 On the X2Z assembly, get installed the X Motor Module and the Z-axis ball bearing Nut.
@@ -127,10 +117,9 @@ The Z-axis, slides on the 2 blocks installed on the X2Z Flank plates. The motor 
 
 
 
-<img src="img/Z Axis.jpg" alt="img" style="zoom:Infinity%;" />
+<img src="img/Z Axis.jpg" alt="img" style="zoom:50%;" />
 
 <div align="center"><i>Z Axis</i></div>
-
 In its bottom is installed the swivel head that rotates the end effector in 2 axis.
 
 ###  ▪ Swivel Head
@@ -139,11 +128,9 @@ The swivel Head is composed from the last two revolute joints, C & B.
 What is special about this assembly, is the fact that it should be the more compact possible. So the two motors, their transmission system and even the limit switches and connectors should all be enclosed in this assembly, and this was the hardest task that we encountered in the whole machine design.
 While designing the Swivel Head, there was 2 big challenges, the choice of transmission system and minimizing joints offset relatively to each other.
 
-<img src="img/Swivel Head.jpg" alt="img" style="zoom:Infinity%;" />
+<img src="img/Swivel Head.jpg" alt="img" style="zoom:50%;" />
 
 <div align="center"><i>Swivel Head</i></div>
-
-
 
 The first challenge is because C and B axis will handle big effort while milling, and if mounted directly on the motor shaft or even through a reversible transmission system, this may cause a loss in steps when encountering big efforts. This obliged as to work with worm gear, which is an irreversible transmission system.
 This choice will cause that the joint offsets get bigger, so we preferred to add a pulley transmission system before the worm gear to prevent the swivel head of getting much bigger.
@@ -155,11 +142,9 @@ For the spindle motor, we did our best to find small and powerful, and not too e
 The main specification needed is a small size, but the most of powerful spindles are so big that you cannot integrate in the swivel head.
 This is why we designed and fabricated our own spindle composed of a 540W Brushless motor, a bearing housing and an ER11 chuck.
 
-<img src="img/Spindle.jpg" alt="img" style="zoom:Infinity%;" />
+<img src="img/Spindle.jpg" alt="img" style="zoom:50%;" />
 
 <div align="center"><i>Spindle Motor</i></div>
-
-
 
 The spindle motor is capable of a max velocity of 20000 RPM at 24V, and has enough torque for milling wood and plastics.
 
@@ -169,15 +154,12 @@ Machine movement along X, Y and Z Axis is assured by 4 motor modules.  Containin
 
 
 
-<img src="img/Y Module Motor.jpg" alt="img" style="zoom:Infinity%;" />
+<img src="img/Y Module Motor.jpg" alt="img" style="zoom:50%;" />
 
 <div align="center"><i>X/Y Axis Motor Module</i></div>
-
-<img src="img/Z Module Motor.jpg" alt="img" style="zoom:Infinity%;" />
+<img src="img/Z Module Motor.jpg" alt="img" style="zoom:50%;" />
 
 <div align="center"><i>Z Axis Motor Module</i></div>
-
- 
 
 ## 4. Electronic enclosure
 
@@ -392,4 +374,5 @@ Holstenhofweg 85<br>
 
 # Note
 This documentation will be continuously improved as soon there are updates and/or improvements on the machine.
+
 # CARVER_X5
