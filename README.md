@@ -137,7 +137,7 @@ For the spindle motor, we did our best to find small and powerful, and not too e
 The main specification needed is a small size, but the most of powerful spindles are so big that you cannot integrate in the swivel head.
 This is why we designed and fabricated our own spindle composed of a 540W Brushless motor, a bearing housing and an ER11 chuck.
 
-<img src="spindle.JPG" alt="img" style="zoom:50%;" />
+<img src="img/spindle.JPG" alt="img" style="zoom:50%;" />
 
 <div align="center"><i>Spindle Motor</i></div>
 The spindle motor is capable of a max velocity of 20000 RPM at 24V, and has enough torque for milling wood and plastics.
