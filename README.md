@@ -39,7 +39,7 @@ So we thought we could create the first OSHW, Head/Head, double swivel head form
 
 ## 1. Specifications
 
-**Dimensions 5xm600** 		   : 650 x 670 x 480mm
+**Dimensions 5xm600** 		   : 650 x 670 x 480mm  
 **Working volume 5xm600**   : 990 x 780 x 1000mm
 **Max travel speed XYZ**		: 15000mm/min (X,Y);     3000-6000mm/min (Z)
 **Max travel speed BC**          : 20rpm(C)  20rpm(B)
