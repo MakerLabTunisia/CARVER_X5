@@ -61,10 +61,9 @@ CNC machines are commonly known that they are nothing more than automated robots
 
 But in 5 axis CNC machines we talk about 3P2R robots, because they are composed of 3 Prismatic Joints succeeded with 2 Revolute Joints, and linked with 6 Links.
 
-<div align="center"><img src="img/image001.jpg" width="100%"></div>
 
-<img src="img/image001.jpg" alt="img" style="zoom:50%;" />
 
+<div align="center"><img src="img/carver_x5.jpg" width="100%"></div>
 <div align="center"><i>CARVER X5 Design</i></div>
 
 Our Joints are named (X, Y, Z, C & B)
@@ -83,7 +82,6 @@ As it's important that the structure be stiff and robust, we wanted to work with
 <img src="img/frame.jpg" alt="img" style="zoom:50%;" />
 
 <div align="center"><i>Machine Frame</i></div>
-
 The machine frame contains the rails and transmission rack of the Y-axis that will carry the other entire axis, this is why we worked with the 45x90 aluminum profiles in the top stage.
 The frame carries the mechanical stops; they include a screw to adjust the limit position.
 
@@ -94,7 +92,6 @@ The Y2X Bridge is the second link in our 5-axis CNC machine, it links the Y and 
 <img src="img/bridge.jpg" alt="img" style="zoom:50%;" />
 
 <div align="center"><i>Y2X Bridge</i></div>
-
 Constructed from two perpendicular 45x90 aluminum profile and two 15mm aluminum plate flanks on which will be installed the Y-axis sliding blocks.
 
 ### ▪ X2Z 
@@ -105,7 +102,6 @@ X2Z is an assembly that plays a big role in our 5 Axis CNC Machine, because it a
 <img src="img/x2z.jpg" alt="img" style="zoom:50%;" />
 
 <div align="center"><i>X2Z</i></div>
-
 Built totally from thick aluminum plates, X2Z contains the sliding blocks of X-axis installed on its back, and those of the Z-axis, installed between the two X2Z flank plates.
 On the X2Z assembly, get installed the X Motor Module and the Z-axis ball bearing Nut.
 
@@ -129,7 +125,6 @@ While designing the Swivel Head, there was 2 big challenges, the choice of trans
 <img src="img/swivel_Head.jpg" alt="img" style="zoom:50%;" />
 
 <div align="center"><i>Swivel Head</i></div>
-
 The first challenge is because C and B axis will handle big effort while milling, and if mounted directly on the motor shaft or even through a reversible transmission system, this may cause a loss in steps when encountering big efforts. This obliged as to work with worm gear, which is an irreversible transmission system.
 This choice will cause that the joint offsets get bigger, so we preferred to add a pulley transmission system before the worm gear to prevent the swivel head of getting much bigger.
 
@@ -143,7 +138,6 @@ This is why we designed and fabricated our own spindle composed of a 540W Brushl
 <img src="img/spindle.jpg" alt="img" style="zoom:50%;" />
 
 <div align="center"><i>Spindle Motor</i></div>
-
 The spindle motor is capable of a max velocity of 20000 RPM at 24V, and has enough torque for milling wood and plastics.
 
 ### ▪ Motor Modules
@@ -158,7 +152,6 @@ Machine movement along X, Y and Z Axis is assured by 4 motor modules.  Containin
 <img src="img/z_Module_Motor.jpg" alt="img" style="zoom:50%;" />
 
 <div align="center"><i>Z Axis Motor Module</i></div>
-
 ## 4. Electronic enclosure
 
 Installed in an industrial **[plastic enclosure](http://www.akisplastik.com.tr/en-us/Product/ProductCategoriesDetail?categoryId=12)** (400x500x240), the **electronics** of the **CARVER X5** is composed of a set of drivers for each motor including the spindle driver, a USB interface control board, a sensor interface board and two 12v 42A DC Power Supply. 
