@@ -65,9 +65,9 @@ But in 5 axis CNC machines we talk about 3P2R robots, because they are composed 
 
 
 
-
-<div align="center"><img src="img/carver_x5.JPG" width="100%"></div>
+<div align="center"><img src="img/carver_X5.JPG" width="100%"></div>
 <div align="center"><i>CARVER X5 Design</i></div>
+
 Our Joints are named (X, Y, Z, C & B)
 
 The Links are named (Frame, Y2X Bridge, X2Z, Z Axis, C Axis, B Axis in which will be installed our end effector).
@@ -113,7 +113,7 @@ The Z-axis, slides on the 2 blocks installed on the X2Z Flank plates. The motor 
 
 
 
-<img src="img/z_Axis.JPG" alt="img" style="zoom:50%;" />
+<img src="img/z_axis.JPG" alt="img" style="zoom:50%;" />
 
 <div align="center"><i>Z Axis</i></div>
 In its bottom is installed the swivel head that rotates the end effector in 2 axis.
@@ -124,7 +124,7 @@ The swivel Head is composed from the last two revolute joints, C & B.
 What is special about this assembly, is the fact that it should be the more compact possible. So the two motors, their transmission system and even the limit switches and connectors should all be enclosed in this assembly, and this was the hardest task that we encountered in the whole machine design.
 While designing the Swivel Head, there was 2 big challenges, the choice of transmission system and minimizing joints offset relatively to each other.
 
-<img src="img/swivel_Head.JPG" alt="img" style="zoom:50%;" />
+<img src="img/swivel_head.JPG" alt="img" style="zoom:50%;" />
 
 <div align="center"><i>Swivel Head</i></div>
 The first challenge is because C and B axis will handle big effort while milling, and if mounted directly on the motor shaft or even through a reversible transmission system, this may cause a loss in steps when encountering big efforts. This obliged as to work with worm gear, which is an irreversible transmission system.
