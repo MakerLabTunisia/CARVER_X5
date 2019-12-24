@@ -61,7 +61,7 @@ CNC machines are commonly known that they are nothing more than automated robots
 
 But in 5 axis CNC machines we talk about 3P2R robots, because they are composed of 3 Prismatic Joints succeeded with 2 Revolute Joints, and linked with 6 Links.
 
-<div align="center"><img src="img/image001.jpg" width="100%"></div>
+<div align="center"><img src="img/image001.jpg" width="80%"></div>
 
 <img src="img/image001.jpg" alt="img" style="zoom:50%;" />
 
