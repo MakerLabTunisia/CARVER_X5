@@ -66,7 +66,7 @@ But in 5 axis CNC machines we talk about 3P2R robots, because they are composed 
 
 
 
-<div align="center"><img src="img/carver_x5.jpg" width="100%"></div>
+<div align="center"><img src="img/carver_x5.JPG" width="100%"></div>
 <div align="center"><i>CARVER X5 Design</i></div>
 Our Joints are named (X, Y, Z, C & B)
 
@@ -81,7 +81,7 @@ As it's important that the structure be stiff and robust, we wanted to work with
 
 
 
-<img src="img/frame.jpg" alt="img" style="zoom:50%;" />
+<img src="img/frame.JPG" alt="img" style="zoom:50%;" />
 
 <div align="center"><i>Machine Frame</i></div>
 The machine frame contains the rails and transmission rack of the Y-axis that will carry the other entire axis, this is why we worked with the 45x90 aluminum profiles in the top stage.
@@ -91,7 +91,7 @@ The frame carries the mechanical stops; they include a screw to adjust the limit
 
 The Y2X Bridge is the second link in our 5-axis CNC machine, it links the Y and X joints.
 
-<img src="img/bridge.jpg" alt="img" style="zoom:50%;" />
+<img src="img/bridge.JPG" alt="img" style="zoom:50%;" />
 
 <div align="center"><i>Y2X Bridge</i></div>
 Constructed from two perpendicular 45x90 aluminum profile and two 15mm aluminum plate flanks on which will be installed the Y-axis sliding blocks.
@@ -101,7 +101,7 @@ Constructed from two perpendicular 45x90 aluminum profile and two 15mm aluminum 
 X2Z, as its name indicates, do the function of the joint between the two prismatic axis, X and Z.
 X2Z is an assembly that plays a big role in our 5 Axis CNC Machine, because it assures both, the linear guiding of X axis, Z axis and their transmission organs.
 
-<img src="img/x2z.jpg" alt="img" style="zoom:50%;" />
+<img src="img/x2z.JPG" alt="img" style="zoom:50%;" />
 
 <div align="center"><i>X2Z</i></div>
 Built totally from thick aluminum plates, X2Z contains the sliding blocks of X-axis installed on its back, and those of the Z-axis, installed between the two X2Z flank plates.
@@ -113,7 +113,7 @@ The Z-axis, slides on the 2 blocks installed on the X2Z Flank plates. The motor 
 
 
 
-<img src="img/z_Axis.jpg" alt="img" style="zoom:50%;" />
+<img src="img/z_Axis.JPG" alt="img" style="zoom:50%;" />
 
 <div align="center"><i>Z Axis</i></div>
 In its bottom is installed the swivel head that rotates the end effector in 2 axis.
@@ -124,7 +124,7 @@ The swivel Head is composed from the last two revolute joints, C & B.
 What is special about this assembly, is the fact that it should be the more compact possible. So the two motors, their transmission system and even the limit switches and connectors should all be enclosed in this assembly, and this was the hardest task that we encountered in the whole machine design.
 While designing the Swivel Head, there was 2 big challenges, the choice of transmission system and minimizing joints offset relatively to each other.
 
-<img src="img/swivel_Head.jpg" alt="img" style="zoom:50%;" />
+<img src="img/swivel_Head.JPG" alt="img" style="zoom:50%;" />
 
 <div align="center"><i>Swivel Head</i></div>
 The first challenge is because C and B axis will handle big effort while milling, and if mounted directly on the motor shaft or even through a reversible transmission system, this may cause a loss in steps when encountering big efforts. This obliged as to work with worm gear, which is an irreversible transmission system.
@@ -148,10 +148,10 @@ Machine movement along X, Y and Z Axis is assured by 4 motor modules.  Containin
 
 
 
-<img src="img/y_Module_Motor.jpg" alt="img" style="zoom:50%;" />
+<img src="img/y_Module_Motor.JPG" alt="img" style="zoom:50%;" />
 
 <div align="center"><i>X/Y Axis Motor Module</i></div>
-<img src="img/z_Module_Motor.jpg" alt="img" style="zoom:50%;" />
+<img src="img/z_Module_Motor.JPG" alt="img" style="zoom:50%;" />
 
 <div align="center"><i>Z Axis Motor Module</i></div>
 ## 4. Electronic enclosure
