@@ -39,20 +39,20 @@ So we thought we could create the first OSHW, Head/Head, double swivel head form
 
 ## 1. Specifications
 
-**Dimensions 5xm600** 		   : 650 x 670 x 480mm  
+**Dimensions 5xm600** 	      : 650 x 670 x 480mm  
 **Working volume 5xm600**   : 990 x 780 x 1000mm  
-**Max travel speed XYZ**		: 15000mm/min (X,Y);     3000-6000mm/min (Z)  
-**Max travel speed BC**          : 20rpm(C)  20rpm(B)  
-**Motors used**                         : NEMA 23 ( X / Y / Z / B / C)  
-**Linear guides**                       : HIWIN High accuracy Rails and Blocks  
-**Structure material**             : Anodized Aluminum   
-**Protection**                            : 5mm Acrylic enclosure  
-**Power requirements**         : 1200W, 240-100V, 50/60hz, 13A   
-**Weight**        	           		    : 93kg  
-**Computer interface**           : USB  
-**Computer requirements**  : Windows operating system with Mach3  
-**Controller**                             : MACH3 (to be purchased separately from an official vendor)  
-**Software**                               :  supports any CAD/CAM software 
+**Max travel speed XYZ**	: 15000mm/min (X,Y);     3000-6000mm/min (Z)  
+**Max travel speed BC**            : 20rpm(C)  20rpm(B)  
+**Motors used**                           : NEMA 23 ( X / Y / Z / B / C)  
+**Linear guides**                         : HIWIN High accuracy Rails and Blocks  
+**Structure material**               : Anodized Aluminum   
+**Protection**                              : 5mm Acrylic enclosure  
+**Power requirements**           : 1200W, 240-100V, 50/60hz, 13A   
+**Weight**        	           		  : 93kg  
+**Computer interface**             : USB  
+**Computer requirements**    : Windows operating system with Mach3  
+**Controller**                               : MACH3 (to be purchased separately from an official vendor)  
+**Software**                                 :  supports any CAD/CAM software   
 
 
 ## 2. Machine design
