@@ -63,9 +63,11 @@ But in 5 axis CNC machines we talk about 3P2R robots, because they are composed 
 
 
 
+
+
+
 <div align="center"><img src="img/carver_x5.jpg" width="100%"></div>
 <div align="center"><i>CARVER X5 Design</i></div>
-
 Our Joints are named (X, Y, Z, C & B)
 
 The Links are named (Frame, Y2X Bridge, X2Z, Z Axis, C Axis, B Axis in which will be installed our end effector).
@@ -135,7 +137,7 @@ For the spindle motor, we did our best to find small and powerful, and not too e
 The main specification needed is a small size, but the most of powerful spindles are so big that you cannot integrate in the swivel head.
 This is why we designed and fabricated our own spindle composed of a 540W Brushless motor, a bearing housing and an ER11 chuck.
 
-<img src="img/spindle.jpg" alt="img" style="zoom:50%;" />
+<img src="spindle.jpg" alt="img" style="zoom:50%;" />
 
 <div align="center"><i>Spindle Motor</i></div>
 The spindle motor is capable of a max velocity of 20000 RPM at 24V, and has enough torque for milling wood and plastics.
@@ -366,4 +368,5 @@ Holstenhofweg 85<br>
 # Note
 This documentation will be continuously improved as soon there are updates and/or improvements on the machine.
 
+# CARVER_X5
 # CARVER_X5
