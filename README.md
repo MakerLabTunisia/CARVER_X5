@@ -5,17 +5,15 @@
 
 ## MakerLab :
 
-MakerLab is a Tunisian tech startup specialized in developing customized embedded systems and mechatronics projects to industrials. 
-In MakerLab, we believe in the Open Source Hardware philosophy and we want to spread the tech knowledge we gain, with the community so everyone performs itself and benefits from others experiences. And this is why, we made from our little space in Sousse, a **TechSpace**, open for everyone who wants to work on real projects, finding all what a Maker needs to create his own tech project. 
-In our TechSpace, many projects were developed and created, even if it is by our staff or by students from different universities across the country, starting from Drones, Internet of Things (IoT) devices, arriving to Robotic Arms and CNC Machines. 
+MakerLab is a Tunisian tech startup specialized in developing customized embedded systems and mechatronics projects to industrials.  
+In MakerLab, we believe in the Open Source Hardware philosophy and we want to spread the tech knowledge we gain, with the community so everyone performs itself and benefits from others experiences.        And this is why, we made from our little space in Sousse, a **TechSpace**, open for everyone who wants to work on real projects, finding all what a Maker needs to create his own tech project.  
+In our TechSpace, many projects were developed and created, even if it is by our staff or by students from different universities across the country, starting from Drones, Internet of Things (IoT) devices, arriving to Robotic Arms and CNC Machines.  
 Moreover, this 5 Axis CNC Machine, is our first Open Source Hardware Project we made, and which we are so happy sharing it with the community. 
 You can find more details on our TechSpace in our:  
 Lien Facebook : https://www.facebook.com/tunmakerlab/
 Lien siteweb : https://makerlab.tn/
 
-## MakerLab vision :
 
-We dream in a future of freedom, where open source hardware and MakerLab enable people to fully understand how to make things they need, and where decentralized local production is customized to impact the surrounding community. Believing that empowering the user with knowledge about how to make machines, Carver X5 wants to give to the world a powerful open source tool. And this Machine is one of the first steps in developing other machines sharing the same philosophy.
 
 ## Presenting the project:
 
@@ -23,17 +21,17 @@ This 5 axis CNC machine, is part of a big project made by our partners Open Lab 
 
 <div align="center"><img src="img/image002.jpg" width="50%"></div>
 <div align="center"><i>Machine Building Workshop</i></div>
-This project consists of organizing a one-week workshop for building machines, and we, MakerLab’s staff, happily and gladly are a part of this first of its kind project in our beloved country, Tunisia.
+This project consists of organizing a one-week workshop for building machines, and we, MakerLab’s staff, are happy and glad to be part of this first of its kind project in our beloved country, Tunisia.
 
 # Why a 5 axis CNC Machine?
 
-Being always updated to the latest OSHW projects in the community, we found that there is many 3 Axis CNC machines, 3D Printers and Laser Cutter with a very good documentation, but not enough OSHW 5 Axis CNC machines and not at all for the Head/Head. 
+Being always updated to the latest OSHW projects in the community, we found that there is many 3 Axis CNC machines, 3D Printers and Laser Cutter with a very good documentation, but not enough OSHW 5 Axis CNC machines and not at all for the Head/Head type. 
 
 
 
 <div align="center"><img src="img/image004.jpg" width="80%"></div>
 <div align="center"><i>CARVER X5 Machine</i></div>
-So we thought we could create the first OSHW, Head/Head, double swivel head form, 5 Axis CNC Machine. We tried our best to make it both robust and easily replicable machine. Constructed mainly from Heavy Aluminum Extrusion profiles, and thick aluminum milled parts HGR25 Linear guides, using NEMA23 Stepper motors, and Rack and pinion for transmission, Carver X5 is capable of milling materials like wood, plastics and soft metals like Aluminum and brass.
+So we thought we could create the first OSHW, Head/Head, double swivel head form, 5 Axis CNC Machine. We tried our best to make it both robust and easily replicable machine. Constructed mainly from Heavy Aluminum Extrusion profiles, and thick aluminum milled parts, HGR25 Linear guides, using NEMA23 Stepper motors, and Rack and pinion for transmission, Carver X5 is capable of milling materials like wood, plastics and composite materials.
 
 # CARVER X5 Machine
 
@@ -41,14 +39,14 @@ So we thought we could create the first OSHW, Head/Head, double swivel head form
 
 **Dimensions 5xm600** 	      : 650 x 670 x 480mm  
 **Working volume 5xm600**   : 990 x 780 x 1000mm  
-**Max travel speed XYZ**	: 15000mm/min (X,Y);     3000-6000mm/min (Z)  
+**Max travel speed XYZ**	      : 15000mm/min (X,Y);     3000-6000mm/min (Z)  
 **Max travel speed BC**            : 20rpm(C)  20rpm(B)  
 **Motors used**                           : NEMA 23 ( X / Y / Z / B / C)  
 **Linear guides**                         : HIWIN High accuracy Rails and Blocks  
 **Structure material**               : Anodized Aluminum   
 **Protection**                              : 5mm Acrylic enclosure  
-**Power requirements**           : 1200W, 240-100V, 50/60hz, 13A   
-**Weight**        	           		  : 93kg  
+**Power requirements**           : 1200W, 220V, 60hz, 13A   
+**Weight**        	           		      : 85kg  
 **Computer interface**             : USB  
 **Computer requirements**    : Windows operating system with Mach3  
 **Controller**                               : MACH3 (to be purchased separately from an official vendor)  
@@ -57,7 +55,7 @@ So we thought we could create the first OSHW, Head/Head, double swivel head form
 
 ## 2. Machine design
 
-CNC machines are commonly known that they are nothing more than automated robots, their famous type, is a 3 axis CNC machines, which are considered as 3P robots (robot with 3 Prismatic Joints linked with 4 Links). 
+CNC machines are commonly known that they are nothing more than automated robots, their famous type, is a 3 axis CNC machines, which are considered as 3P robots (robot with 3 Prismatic Joints linked with 4 Links).  
 
 But in 5 axis CNC machines we talk about 3P2R robots, because they are composed of 3 Prismatic Joints succeeded with 2 Revolute Joints, and linked with 6 Links.
 
@@ -67,10 +65,9 @@ But in 5 axis CNC machines we talk about 3P2R robots, because they are composed 
 
 <div align="center"><img src="img/carver_X5.JPG" width="100%"></div>
 <div align="center"><i>CARVER X5 Design</i></div>
-
 Our Joints are named (X, Y, Z, C & B)
 
-The Links are named (Frame, Y2X Bridge, X2Z, Z Axis, C Axis, B Axis in which will be installed our end effector).
+The Links are named : Frame, Y2X Bridge, X2Z, Z Axis, Swivel Head and the Spindle.
 
 ## 3. Machine composition:
 
@@ -116,19 +113,18 @@ The Z-axis, slides on the 2 blocks installed on the X2Z Flank plates. The motor 
 <img src="img/z_axis.JPG" alt="img" style="zoom:50%;" />
 
 <div align="center"><i>Z Axis</i></div>
-In its bottom is installed the swivel head that rotates the end effector in 2 axis.
+In its bottom is installed the swivel head that rotates the end effector around 2 axis.
 
 ###  ▪ Swivel Head
 
-The swivel Head is composed from the last two revolute joints, C & B.
+The swivel head is composed from the last two revolute joints, C & B.
 What is special about this assembly, is the fact that it should be the more compact possible. So the two motors, their transmission system and even the limit switches and connectors should all be enclosed in this assembly, and this was the hardest task that we encountered in the whole machine design.
 While designing the Swivel Head, there was 2 big challenges, the choice of transmission system and minimizing joints offset relatively to each other.
 
 <img src="img/swivel_head.JPG" alt="img" style="zoom:50%;" />
 
 <div align="center"><i>Swivel Head</i></div>
-The first challenge is because C and B axis will handle big effort while milling, and if mounted directly on the motor shaft or even through a reversible transmission system, this may cause a loss in steps when encountering big efforts. This obliged as to work with worm gear, which is an irreversible transmission system.
-This choice will cause that the joint offsets get bigger, so we preferred to add a pulley transmission system before the worm gear to prevent the swivel head of getting much bigger.
+There is challenge because C and B axis will handle big effort while milling, and if mounted directly on the motor shaft or even through a reversible transmission system, this may cause a loss in steps when encountering big efforts. This obliged as to work with worm gear, which is an irreversible transmission system.
 
 
 ### ▪ Spindle Motor
@@ -170,26 +166,28 @@ PoKeys57CNC USB and Ethernet CNC controller is a blend between general purpose P
  Download PoKeys57CNC datasheet [here](https://www.poscope.com/wp-content/uploads/downloads/Pokeys/Manuals/PoKeys57CNC%20user%20manual.pdf).
 
 ▪ **Drivers**
-TB6600 Stepper Motor Driver is an easy-to-use stepper motor driver, which could control a two-phase stepping motor. It is compatible with Arduino and other microcontrollers that can output a 5V digital pulse signal. TB6600 arduino stepper motor driver has a wide range power input, 9~42VDC power supply. And it is able to output 4A peak current, which is enough for the most of stepper motors. The stepper driver supports speed and direction control. You can set its micro step and output current with 6 DIP switch.
+TB6600 Stepper Motor Driver is an easy-to-use stepper motor driver, which could control a two-phase stepping motor. It is compatible with Arduino and other microcontrollers that can output a 5V digital pulse signal. TB6600 stepper motor driver has a wide range power input, 9~42VDC power supply. And it is able to output 4A peak current, which is enough for the most of stepper motors. The stepper driver supports speed and direction control. You can set its micro step and output current with 6 DIP switch.
 
 Download TB6600 datasheet [here](http://olimex.cl/website_MCI/static/documents/TB6600_data_sheet.pdf).
 
 ▪ **The sensor cables gatherer board**
-The need for the sensor cable gatherer board has emerged due to the multiplicity of sensors. And to minimize the number of cables passing through the cables carrier, we managed to gather them in a 15 cores VGA cable. This board provides the current and voltage needed to all the 11 sensors used in the machine, and is installed on the Y2X Bridge in between the two cables carrier. 
+The need for the sensor cable gatherer board has emerged due to the multiplicity of sensors. And to minimize the number of cables passing through the cables carrier, first, we managed to gather them in a 15 cores VGA cable, then we choose to use 2 DB9 ports and cables, one for Limites (+), and the other for Limites (-).  
 
 ![img](img/image024.jpg)
 
-At the beginning, we used a VGA port but we found a lot of the issues while soldering the 15 cores cables in the VGA port. This is why we managed to use two Ethernet cable which easier to install.
+This board provides the current and voltage needed to all the 10 sensors used in the machine and the toggle switch, and is installed on the Y2X Bridge in between the two cables carrier.   
 
 (Board KiCAD)
 
 ▪ **The sensors interface board**
-This board will play the role of the interface between sensors signal coming from the first board and the pokeys57cnc board through a little circuit of signal adaptation.
- Inductive proximity switches works with 12V power supply, and returns a 12V digital signal, but the pokeys57cnc can only handle 5V digital signal in limit switches inputs. 
+This board will play the role of the interface between sensors signals coming from the first board and the pokeys57cnc board through a little circuit of signal adaptation.  
+Inductive proximity switches works with 12V power supply, and returns a 12V digital signal, but the pokeys57cnc can only handle 5V digital signal in limit switches inputs. 
 
 ![img](img/image026.jpg)
 
-This is why we used a circuit based on a 470 ohm resistor for current limiting and a 5.1V zener diode to let only the needed 5V pass to the control board for each signal. On this map, the extremities and minimum limits (x-min, y-min, z-min) will be connected. 
+This is why we used a circuit based on a 470 ohm resistor for current limiting and a 5.1V zener diode to let only the needed 5V pass to the control board for each signal. 
+
+
 
 ▪ **Spindle motor Driver**
 As we created our own spindle based on brushless DC Motor, we used its recommended Electronic Speed Controller as a driver. A 60A ESC is responsible of driving the motor at 20 000 RPM at 24V.
@@ -200,9 +198,9 @@ Product page [Link](https://www.overlander.co.uk/overlander-xp2-60a-sbec-brushle
 ## 5. Wiring
 
  One main task we did is the wiring, and it is so important.
- We used RGB 4 wire Cables for the stepper motors, they thick enough to carry the needed current.
+ We used RGB 4 wire Cables for the stepper motors, they are thick enough to carry the needed current.
  The end stop switches cables were long enough to reach the first interface board installed on the bridge assembly.
- We gathered all sensors signals in two ethernet cables to facilitate connection.
+ We gathered all sensors signals in two RS232 cables to facilitate connection.
  Of course all these cables needed a way to be placed in, so we used 57x25 industrial cable carrier to arrange all wires to the electronic enclosure.
 
  
