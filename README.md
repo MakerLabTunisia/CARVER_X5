@@ -173,7 +173,7 @@ Download TB6600 datasheet [here](http://olimex.cl/website_MCI/static/documents/T
 ▪ **The sensor cables gatherer board**
 The need for the sensor cable gatherer board has emerged due to the multiplicity of sensors. And to minimize the number of cables passing through the cables carrier, first, we managed to gather them in a 15 cores VGA cable, then we choose to use 2 DB9 ports and cables, one for Limites (+), and the other for Limites (-).  
 
-![img](img/image024.jpg)
+![img](img/image6.jpg)
 
 This board provides the current and voltage needed to all the 10 sensors used in the machine and the toggle switch, and is installed on the Y2X Bridge in between the two cables carrier.   
 
@@ -183,7 +183,7 @@ This board provides the current and voltage needed to all the 10 sensors used in
 This board will play the role of the interface between sensors signals coming from the first board and the pokeys57cnc board through a little circuit of signal adaptation.  
 Inductive proximity switches works with 12V power supply, and returns a 12V digital signal, but the pokeys57cnc can only handle 5V digital signal in limit switches inputs. 
 
-![img](img/image026.jpg)
+![img](img/image5.jpg)
 
 This is why we used a circuit based on a 470 ohm resistor for current limiting and a 5.1V zener diode to let only the needed 5V pass to the control board for each signal. 
 
@@ -287,8 +287,6 @@ Knowing everything about the design of the **CARVER X5** and the different steps
 <img src="img/image082.jpg" alt="img" style="zoom:33%;" /> <img src="img/image084.jpg" alt="img" style="zoom:33%;" />
 
 ## ▪ Day 6 
-**-Z-Axis assembling**
-
 **-Plexiglas enclosure assembling** 
 
 <img src="img/image088.jpg" alt="img" style="zoom:33%;" /> <img src="img/image090.jpg" alt="img" style="zoom:33%;" />
@@ -297,13 +295,24 @@ Knowing everything about the design of the **CARVER X5** and the different steps
 
 **-Wiring electronic parts**
 
-<img src="img/image096.jpg" alt="img" style="zoom:33%;" /> <img src="img/image098.jpg" alt="img" style="zoom:33%;" />
+<img src="img/image096.jpg" alt="img" style="zoom:33%;" /> <img src="img/image0100.jpg" alt="img" style="zoom:33%;" />
 
- <img src="img/image0100.jpg" alt="img" style="zoom:33%;" />
+ 
 
 
 ## ▪ Day 7 
-**Presenting the machine and Workshop roll up**
+**-Presenting the machine and Workshop roll up**
+
+<img src="img/image1.jpg" alt="img" style="zoom:33%;" /> <img src="img/image2.jpg" alt="img" style="zoom:33%;" />
+
+<img src="img/image3.jpg" alt="img" style="zoom:33%;" /> <img src="img/image 4.jpg" alt="img" style="zoom:33%;" />
+
+# Project progress
+
+The project is still in progress, we finished the design of the whole machine, and the fabrication of the 3 first axis and all the electronic parts. Actually, we are manufacturing the double swivel head and the spindle system.
+We moved the X,Y,& Z Axis with the Pokeys57 and Mach3, and we are working on the CARVER X5 post processor for FUSION 360.
+We will update regularly this project in every progress we make, and we hope that this will be helpful for the whole OpenSourceHardWare Community !!
+Don't forget to interact with us, send your notes or eventually you amelioration ideas !! 
 
 # Credits
 
