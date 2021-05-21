@@ -1,0 +1,2 @@
+- emprint conecteurs 
+- ecarter l'espace entre les pistes et plan de masse 

@@ -1,0 +1,63 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 691322110008-691322110008-Second-Board-rescue
+#
+DEF 691322110008-691322110008-Second-Board-rescue J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "691322110008-691322110008-Second-Board-rescue" 650 200 50 H V L CNN
+F2 "SHDR8W120P0X350_1X8_2940X920X740P" 650 100 50 H I L CNN
+F3 "https://katalog.we-online.de/em/datasheet/6913221100xx.pdf" 650 0 50 H I L CNN
+F4 "Wurth Elektronik 3221 Series 3.5mm Pitch Straight Pluggable Terminal Block, PCB Header, Through Hole, 8 Way" 650 -100 50 H I L CNN "Description"
+F5 "7.4" 650 -200 50 H I L CNN "Height"
+F6 "Wurth Elektronik" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "691322110008" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "8246649" 650 -500 50 H I L CNN "RS Part Number"
+F9 "http://uk.rs-online.com/web/p/products/8246649" 650 -600 50 H I L CNN "RS Price/Stock"
+F10 "710-691322110008" 650 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.com/Search/Refine.aspx?Keyword=710-691322110008" 650 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -800 200 -800 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 B
+X 2 2 0 -100 200 R 50 50 0 0 B
+X 3 3 0 -200 200 R 50 50 0 0 B
+X 4 4 0 -300 200 R 50 50 0 0 B
+X 5 5 0 -400 200 R 50 50 0 0 B
+X 6 6 0 -500 200 R 50 50 0 0 B
+X 7 7 0 -600 200 R 50 50 0 0 W
+X 8 8 0 -700 200 R 50 50 0 0 W
+ENDDRAW
+ENDDEF
+#
+# LTV-817-Isolator
+#
+DEF LTV-817-Isolator U 0 40 Y Y 1 F N
+F0 "U" -200 200 50 H V L CNN
+F1 "LTV-817-Isolator" 0 200 50 H V L CNN
+F2 "Package_DIP:DIP-4_W7.62mm" -200 -200 50 H I L CIN
+F3 "" 0 -100 50 H I L CNN
+$FPLIST
+ DIP*W7.62mm*
+$ENDFPLIST
+DRAW
+S -200 150 200 -150 0 1 10 f
+P 2 0 1 10 -125 -25 -75 -25 N
+P 2 0 1 0 100 25 175 100 N
+P 2 0 1 0 175 -100 100 -25 F
+P 2 0 1 0 175 -100 200 -100 N
+P 2 0 1 0 175 100 200 100 N
+P 3 0 1 0 -200 100 -100 100 -100 -30 N
+P 3 0 1 0 -100 -25 -100 -100 -200 -100 N
+P 3 0 1 20 100 75 100 -75 100 -75 N
+P 4 0 1 10 -100 -25 -125 25 -75 25 -100 -25 N
+P 5 0 1 0 -20 -20 30 -20 15 -25 15 -15 30 -20 N
+P 5 0 1 0 -20 20 30 20 15 15 15 25 30 20 N
+P 5 0 1 0 120 -65 140 -45 160 -85 120 -65 120 -65 F
+X ~ 1 -300 100 100 R 50 50 1 1 P
+X ~ 2 -300 -100 100 R 50 50 1 1 P
+X ~ 3 300 -100 100 L 50 50 1 1 P
+X ~ 4 300 100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

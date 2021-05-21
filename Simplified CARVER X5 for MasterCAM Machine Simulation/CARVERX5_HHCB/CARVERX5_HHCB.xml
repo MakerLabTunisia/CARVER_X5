@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<machine_definition>
+    <machine_data name="CARVERX5_HHCB" version="1.8" units="metric" controller="">
+        <view_transform initialvalue="1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000" />
+    </machine_data>
+    <geometry name="CARVERX5_BODY" geo="carverx5_body.stl" clrr="0.50196081" clrg="0.50196081" clrb="0.50196081" alpha="0.00" reflectivity="0.00" reflectivityBitmapFileName="" objtype="geometry" />
+    <axis id="Y" type="translation" x="0.00000000" y="1.00000000" z="0.00000000" minvalue="0.000000" maxvalue="600.000000" valuetype="cont" initial_value="0.000000">
+        <geometry name="CARVERX5_AXIS_Y" geo="carverx5_axis_y.stl" clrr="0.50196081" clrg="0.50196081" clrb="0.50196081" alpha="0.00" reflectivity="0.00" reflectivityBitmapFileName="" objtype="geometry" />
+        <axis id="X" type="translation" x="1.00000000" y="0.00000000" z="0.00000000" minvalue="0.000000" maxvalue="600.000000" valuetype="cont" initial_value="0.000000">
+            <geometry name="CARVERX5_AXIS_X" geo="carverx5_axis_x.stl" clrr="0.50196081" clrg="0.50196081" clrb="0.50196081" alpha="0.00" reflectivity="0.00" reflectivityBitmapFileName="" objtype="geometry" />
+            <axis id="Z" type="translation" x="0.00000000" y="0.00000000" z="1.00000000" minvalue="0.000000" maxvalue="450.000000" valuetype="cont" initial_value="0.000000">
+                <axis id="C" type="rotation" x="0.00000000" y="0.00000000" z="1.00000000" minvalue="-180.000000" maxvalue="180.000000" valuetype="cont" initial_value="0.000000" rzx="0.00000000" rzy="0.00000000" rzz="0.00000000">
+                    <axis id="B" type="rotation" x="0.00000000" y="1.00000000" z="0.00000000" minvalue="-135.000000" maxvalue="135.000000" valuetype="cont" initial_value="0.000000" rzx="0.00000000" rzy="0.00000000" rzz="59.50000000">
+                        <geometry name="CARVERX5_AXIS_B" geo="carverx5_axis_b.stl" clrr="0.50196081" clrg="0.50196081" clrb="0.50196081" alpha="0.00" reflectivity="0.00" reflectivityBitmapFileName="" objtype="geometry" />
+                        <transform id="holder_transform" initialvalue="1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000">
+                            <geometry name="tool" geo="tool.stl" alpha="0.00" reflectivity="0.10" reflectivityBitmapFileName="" objtype="tool" cuttr="0.82745099" cuttg="0.78039217" cuttb="0.67450982" noncuttr="0.50196081" noncuttg="0.50196081" noncuttb="0.50196081" arborr="0.39215687" arborg="0.39215687" arborb="0.39215687" holderr="0.36862746" holderg="0.57254905" holderb="0.69019610" />
+                        </transform>
+                    </axis>
+                    <geometry name="CARVERX5_AXIS_C" geo="carverx5_axis_c.stl" clrr="0.50196081" clrg="0.50196081" clrb="0.50196081" alpha="0.00" reflectivity="0.00" reflectivityBitmapFileName="" objtype="geometry" />
+                </axis>
+                <geometry name="CARVERX5_AXIS_Z" geo="carverx5_axis_z.stl" clrr="0.50196081" clrg="0.50196081" clrb="0.50196081" alpha="0.00" reflectivity="0.00" reflectivityBitmapFileName="" objtype="geometry" />
+            </axis>
+        </axis>
+    </axis>
+    <transform id="workpiece_transform" initialvalue="1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000">
+        <geometry name="fixture" geo="fixture.stl" clrr="0.50196081" clrg="0.50196081" clrb="0.50196081" alpha="0.00" reflectivity="0.00" reflectivityBitmapFileName="" objtype="fixture" />
+        <geometry name="initialstock" geo="initialstock.stl" clrr="0.75294119" clrg="0.75294119" clrb="0.75294119" alpha="0.80" reflectivity="0.00" reflectivityBitmapFileName="" objtype="initialstock" />
+        <geometry name="stock" geo="stock.stl" clrr="0.75294119" clrg="0.75294119" clrb="0.75294119" alpha="0.00" reflectivity="0.40" reflectivityBitmapFileName="" objtype="stock" />
+        <geometry name="toolpath" geo="toolpath.asc" clrr="0.80000001" clrg="0.80000001" clrb="0.80000001" alpha="0.00" reflectivity="0.00" reflectivityBitmapFileName="" objtype="toolpath" />
+        <geometry name="workpiece" geo="workpiece.stl" clrr="0.75294119" clrg="0.75294119" clrb="0.75294119" alpha="0.00" reflectivity="0.40" reflectivityBitmapFileName="" objtype="workpiece" />
+    </transform>
+    <collcheck id="cc1" name="cc1" group1="workpiece,fixture,stock,CARVERX5_BODY" group2="tool,CARVERX5_AXIS_C,CARVERX5_AXIS_B" />
+</machine_definition>
